@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body">
+    <div id="div">
+        <p>Na tej stronie wykorzystywanie sa pliki cookies wyraz zgode </p>
+    <button id="btn" onclick="cook()">Zgoda na pliki cookies</button></div>
+    <script>
+        function cook()
+        {
+            document.cookie = "cookieAccept: true" 
+            document.getElementById('div').style.display = "none"
+        }
+    </script>
+</body>
+</html>
